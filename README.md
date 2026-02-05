@@ -1,147 +1,117 @@
 # Customer_Behavior_Analysis
-data analytics project showcasing customer behavior analysis using python , sql  and power Bi.
+📌 Overview
 
-📌 Project Overview
-
-This project demonstrates an end-to-end data analytics lifecycle, covering data ingestion, exploratory analysis, data cleaning, SQL-based analysis, dashboard development, and stakeholder-ready reporting.
-The project is designed to reflect real-world business analytics workflows and highlights skills required for Data Analyst and Business Analyst roles, including data-driven decision making and insight communication.
+This project demonstrates an end-to-end data analytics workflow, starting from raw data loading to insights delivery through dashboards and presentations.
+The objective is to analyze customer/business data, extract meaningful insights using Python, SQL, and Power BI, and communicate results effectively through a report and presentation.
 
 📂 Dataset
 
-Format: CSV (Structured dataset)
+1.Source: Provided / public dataset (CSV format)
 
-Nature: Customer & transaction-level data
-Key attributes include:
-Customer demographics
-Purchase amounts
-Product categories
-Review ratings
-Discounts & subscriptions
-Shipping types
-The dataset was used consistently across Python, SQL, and Power BI.
+2.Type: Structured tabular data
 
-Tools & Technologies
+3.Key fields include:
 
-Programming & Analysis
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-Jupyter Notebook
-Databases & SQL
+4.Customer details
 
-PostgreSQL / MySQL / SQL Server
+5.Purchase information
 
-SQL (Joins, CTEs, Window Functions, Aggregations)
+6.Ratings and discounts
 
-Visualization & Reporting
+7.Subscription and shipping data
 
-Power BI (Interactive dashboards)
+8.The dataset is used for analysis, cleaning, SQL querying, and visualization.
 
-Gamma (Business presentation)
+🛠️ Tools & Technologies
 
-Version Control
+1.Python (Pandas, NumPy, Matplotlib/Seaborn)
 
-Git & GitHub
+2.SQL (PostgreSQL / MySQL / SQL Server)
 
-🔍 Project Workflow & Steps
+3.Power BI (Dashboard & KPIs)
+
+4.Gamma (Presentation creation)
+
+5.Jupyter Notebook
+
+6.GitHub (Version control)
+
+🔍 Project Steps
 1️⃣ Data Loading (Python)
 
-Loaded dataset using Pandas
+Loaded the dataset using Pandas
 
-Verified schema, data types, and structure
+Checked data shape, columns, and data types
 
 2️⃣ Exploratory Data Analysis (EDA)
 
-Descriptive statistics
+Analyzed data distribution and trends
 
-Trend and distribution analysis
+Identified missing values and outliers
 
-Missing value and outlier detection
+Performed descriptive statistics
 
-3️⃣ Data Cleaning & Feature Engineering
+3️⃣ Data Cleaning
 
-Handled missing values and duplicates
+Handled missing values
 
 Corrected data types
 
-Created new features:
+Removed duplicates
 
-Age groups
-
-Customer segments
-
-Discount indicators
+Created derived features (e.g., age groups, customer segments)
 
 4️⃣ SQL Analysis
 
 Loaded cleaned data into PostgreSQL / MySQL
 
-Performed analytical queries to answer business questions:
+Wrote SQL queries to answer business questions such as:
 
-Revenue analysis
+Top-performing products
 
-Discount usage patterns
+Discount usage analysis
 
-Customer segmentation
+Revenue by customer segment
 
 Repeat buyer behavior
 
-Top products by sales and ratings
+5️⃣ Dashboard Development (Power BI)
 
-5️⃣ Power BI Dashboard
+Built interactive dashboards with:
 
-Built an interactive dashboard with:
+KPIs (Revenue, Avg Spend, Ratings)
 
-KPIs
+Filters (Category, Subscription, Gender)
 
-Slicers and filters
-
-Category-wise and segment-wise analysis
-
-Designed for business stakeholders
+Charts and tables for insights
 
 6️⃣ Reporting & Presentation
 
 Created a structured analytics report
 
-Built a professional presentation using Gamma
+Designed a professional presentation using Gamma
 
-Focused on insights, trends, and recommendations
-
-📊 Key Project KPIs
-
-Total Revenue
-
-Average Purchase Value
-
-Discount Rate (%)
-
-Repeat Buyer Count
-
-Top Products by Rating
-
-Subscription-wise Revenue Contribution
-
-Customer Segment Distribution
+Focused on insights, trends, and business recommendations
 
 📈 Dashboard Highlights
 
-Revenue & Average Spend Overview
+1.Total Revenue & Average Spend
 
-Top-Performing Products
+2.Top Products by Rating and Sales
 
-Discount Impact Analysis
+3.Discount Rate Analysis
 
-Subscription vs Non-Subscription Performance
+4.Subscription-wise Revenue
 
-Customer Segmentation Insights
+6.Customer Segmentation Insights
 
-✅ Key Business Insights
+✅ Key Results & Insights
 
-Identified high-value customer segments
+1.Identified high-revenue customer segments
 
-Analyzed how discounts influence purchase behavior
+2.Found products with high ratings and strong sales
 
-Found products with high ratings and strong sales volume
+3.Analyzed the impact of discounts on purchase behavior
 
-Compared revenue contribution across subscription types
-
+4.Compared performance across subscription and shipping types subscription types
 Highlighted opportunities for customer retention and upselling
